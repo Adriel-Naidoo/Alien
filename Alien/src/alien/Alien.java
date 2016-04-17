@@ -19,7 +19,8 @@ public class Alien {
         
         Scanner kb=new Scanner (System.in);
         
-        final String PATH="C:\\Users\\ADRIELICAL\\Desktop\\Alien\\src\\alien\\tokens.txt";
+        //Adriel Naidoo: Modify this path to contain your machine name. Replace 'ABC' is advised.
+        final String PATH="C:\\Users\\ABC\\Desktop\\Alien\\src\\alien\\tokens.txt";
         BufferedReader read=new BufferedReader(new FileReader(PATH));
         
         String temp;
